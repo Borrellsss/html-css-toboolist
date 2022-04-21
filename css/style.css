@@ -6,6 +6,11 @@
     font-family: sans-serif;
 }
 
+/* COMMON */
+.container {
+    padding: 0 50px;
+}
+
 /* BACKGROUND BODY */
 body {
     background-color: #f6f8f9;
@@ -26,4 +31,38 @@ header img {
     font-size: 35px;
     font-weight: 700;
     vertical-align: middle;
+}
+
+/* MAIN */
+main {
+    margin: 40px auto;
+    border-radius: 7px;
+    width: 70%;
+    height: 500px;
+    background-color: yellow;
+}
+
+/* BUTTONS */
+.btn-section {
+    padding: 10px 0;
+    border-bottom: 1px solid #f6f8f9;
+}
+
+.btn {
+    padding: 5px 10px;
+    border: 1px solid;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.btn.blue {
+    border: none;
+    background-color: #47adf1;
+    color: white;
+}
+
+.btn.white {
+    border: 1px solid lightgrey;
+    background-color: white;
+    color: lightgrey;
 }
