@@ -36,16 +36,17 @@ header img {
 /* MAIN */
 main {
     margin: 40px auto;
+    padding-bottom: 20px;
     border-radius: 7px;
     width: 70%;
-    height: 500px;
-    background-color: yellow;
+    background-color: white;
 }
 
 /* BUTTONS */
 .btn-section {
-    padding: 10px 0;
-    border-bottom: 1px solid #f6f8f9;
+    margin-bottom: 30px;
+    padding: 15px 0;
+    border-bottom: 2px solid #f6f8f9;
 }
 
 .btn {
@@ -65,4 +66,82 @@ main {
     border: 1px solid lightgrey;
     background-color: white;
     color: lightgrey;
+}
+
+/* LIST */
+.main-list > li {
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.sublist > li {
+    margin-top: 15px;
+    font-size: initial;
+    font-weight: 500;
+}
+
+.arrow-down {
+    font-size: 25px;
+}
+
+li {
+    list-style-type: none;
+    vertical-align: middle;
+}
+
+/* SUBLIST CONTENT */
+.sublist .mark {
+    display: inline-block;
+    font-size: 10px;
+    width: 15px;
+    height: 15px;
+    border: 1px solid;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 15px;
+    vertical-align: middle;
+}
+
+.red {
+    color: red;
+    border-color: red;
+}
+
+.green {
+    color: green;
+    border-color: green;
+}
+
+.small-box {
+    display: inline-block;
+    padding: 7px 10px;
+    border-radius: 12px;
+    font-size: 10px;
+    color: white;
+}
+
+/* SINGLE BOX COLORS */
+.small-box.lightblue {
+    background-color: #45abea;
+}
+
+.small-box.violet {
+    background-color: #9c72e4;
+}
+
+.small-box.lightgreen {
+    background-color: #64c0a9;
+}
+
+.small-box.orange {
+    background-color: #f29e33;
+}
+
+.small-box.pink {
+    background-color: #d863a1;
+}
+
+.small-box.yellowgreen {
+    background-color: #b0c926;
 }
